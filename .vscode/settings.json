@@ -1,0 +1,7 @@
+{
+    "editor.minimap.maxColumn": 60,
+    "editor.minimap.side": "right",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 60,
+    "breadcrumbs.icons": true
+}
