@@ -1,3 +1,9 @@
 body {
     background-color: teal;
+    .containerWidth{
+        .row{
+            flex-direction: row;
+            justify-content: center;
+        }
+    }
 }
