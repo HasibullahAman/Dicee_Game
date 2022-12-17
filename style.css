@@ -1,6 +1,18 @@
 body {
   background-color: teal;
 }
+@font-face {
+  body {
+    font-family: label;
+    src: url(./font/LaBelleAurore-Regular.ttf) format("ttf");
+  }
+}
+@font-face {
+  body {
+    font-family: label;
+    src: url(Entezar2.ttf) format("ttf");
+  }
+}
 body .container .row {
   flex-direction: row;
   justify-content: center;
