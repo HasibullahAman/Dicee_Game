@@ -1,17 +1,13 @@
+@font-face {
+  font-family: "label";
+  src: url("./font/LaBelleAurore-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "NerkoOne";
+  src: url("./font/NerkoOne-Regular.ttf") format("ttf");
+}
 body {
-  background-color: teal;
-}
-@font-face {
-  body {
-    font-family: label;
-    src: url(./font/LaBelleAurore-Regular.ttf) format("ttf");
-  }
-}
-@font-face {
-  body {
-    font-family: label;
-    src: url(Entezar2.ttf) format("ttf");
-  }
+  background-color: rgb(81, 87, 87);
 }
 body .container .row {
   flex-direction: row;
@@ -19,4 +15,9 @@ body .container .row {
 }
 body .container .row h1 {
   justify-content: center;
+  font-family: "NerkoOne";
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 8rem;
+  color: #4ecca3;
 }/*# sourceMappingURL=style.css.map */
