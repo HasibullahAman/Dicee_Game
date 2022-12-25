@@ -10,7 +10,7 @@ body {
   background-color: rgb(81, 87, 87);
 }
 body .container {
-  width: 70%;
+  width: 50%;
 }
 body .container .row {
   flex-direction: row;
@@ -23,8 +23,8 @@ body .container .row h1 {
   color: #4ecca3;
 }
 body .container .row .dice .player1 img {
-  width: 12rem;
-  height: 12rem;
+  width: 15rem;
+  height: 15rem;
   justify-content: center;
   align-self: center;
 }

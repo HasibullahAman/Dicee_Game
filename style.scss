@@ -9,7 +9,7 @@
 body {
     background-color: rgb(81, 87, 87);
     .container{
-        width: 70%;
+        width: 50%;
         .row{
             flex-direction: row;
             justify-content: center;
@@ -24,8 +24,8 @@ body {
         .dice{
             .player1{
                 img{
-                    width:12rem;
-                    height:12rem;
+                    width:15rem;
+                    height:15rem;
                     justify-content: center;
                     align-self: center;
                 }
