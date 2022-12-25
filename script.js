@@ -18,10 +18,13 @@ image2.setAttribute("src", randomImg2);
 
 function win(){
     if(randomNumber<randomNumber2){
-        document.querySelector("h1").innerHTML = "Player 2 is win...!";
+        document.querySelector("h1").innerHTML = "🏴󠁧󠁢󠁥󠁮󠁧󠁿Player 2 is win...!";
     }
     else if(randomNumber>randomNumber2){
-        document.querySelector("h1").innerHTML = "Player 1 is win...!";
+        document.querySelector("h1").innerHTML = "🏴󠁧󠁢󠁥󠁮󠁧󠁿Player 1 is win...!";
+    }
+    else{
+        document.querySelector("h1").innerHTML = "🏴󠁧󠁢󠁥󠁮󠁧󠁿Draw...!"; 
     }
 }
 
