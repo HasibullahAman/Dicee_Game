@@ -19,7 +19,7 @@ body .container .row {
 body .container .row h1 {
   justify-content: center;
   font-style: italic;
-  font-size: 8rem;
+  font-size: 5rem;
   color: #4ecca3;
 }
 body .container .row .dice .player1 img {
