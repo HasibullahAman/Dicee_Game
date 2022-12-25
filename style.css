@@ -26,4 +26,9 @@ body .container .row .dice .player1 img {
   height: 15rem;
   justify-content: center;
   align-self: center;
+}
+body .container .row .icon {
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
 }/*# sourceMappingURL=style.css.map */
