@@ -9,21 +9,22 @@
 body {
   background-color: rgb(81, 87, 87);
 }
+body .container {
+  width: 70%;
+}
 body .container .row {
   flex-direction: row;
   justify-content: center;
 }
 body .container .row h1 {
   justify-content: center;
-  font-family: "NerkoOne";
   font-style: italic;
-  font-weight: bolder;
   font-size: 8rem;
   color: #4ecca3;
 }
 body .container .row .dice .player1 img {
-  width: 15rem;
-  height: 15rem;
+  width: 12rem;
+  height: 12rem;
   justify-content: center;
   align-self: center;
 }
